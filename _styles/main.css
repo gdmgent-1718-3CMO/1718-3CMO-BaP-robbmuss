@@ -1,0 +1,96 @@
+body{
+    font-family: 'Catamaran';
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 50px 0 50px;
+  }
+
+}
+
+.navbar-brand{
+    font-weight:bold;
+}
+
+.nav-link{
+    margin-left: 10px;
+}
+
+.titel {
+    font-size: 50px;
+}
+
+.foutief {
+    margin-top: 30px;
+}
+
+.card{
+    border:0px solid rgba(0,0,0,.125);
+}
+
+p{
+    font-size: 15px;
+}
+
+.btn{
+    border:1px solid rgba(0,0,0,.125);
+    margin-bottom: 10px;
+}
+
+
+.bg-container{
+    background: linear-gradient(-90deg, #f06522, #ef7625);
+}
+
+section {
+  padding: 150px 0;
+}
+
+
+.sticky-top{
+ background:white;
+border-bottom-style: solid;
+border-bottom-color: #ea5a0b;
+border-bottom-width: 4px;
+}
+
+footer{
+ background:#ea5a0b; 
+ padding: 17px 0px 12px 0px;
+}
+
+.footertekst{
+    font-size: 12px;
+    color: white;
+    text-align: center;
+}
+
+img.afmeting{
+    height: 200px;
+    margin-top: 25px;
+}
+
+img.afmeting2{
+    height: 100px;
+    margin-top: 5px;
+}
+
+img.afmeting3{
+    width: 100%;
+    margin-top: 5px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centertekst{
+    text-align: center;
+}
+
+.navbar-light .navbar-nav .active>.nav-link{
+    font-weight:500;
+}
