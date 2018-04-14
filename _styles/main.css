@@ -8,7 +8,9 @@ body{
   }
 
 }
-
+.grijs{
+    background-color: #fafafa;
+}
 .navbar-brand{
     font-weight:bold;
 }
@@ -38,9 +40,12 @@ p{
     margin-bottom: 10px;
 }
 
+.card{
+    background-color: #f1f1f1;
+}
 
 .bg-container{
-    background: linear-gradient(-90deg, #f06522, #ef7625);
+    background: #ea5a0b;
 }
 
 section {
@@ -50,9 +55,8 @@ section {
 
 .sticky-top{
  background:white;
-border-bottom-style: solid;
-border-bottom-color: #ea5a0b;
-border-bottom-width: 4px;
+height: 60px;
+    box-shadow: 0px 0px 10px #c3c3c3;
 }
 
 footer{
@@ -60,15 +64,23 @@ footer{
  padding: 17px 0px 12px 0px;
 }
 
+.padding{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .footertekst{
-    font-size: 12px;
+    font-size: 14px;
     color: white;
-    text-align: center;
 }
 
 img.afmeting{
     height: 200px;
     margin-top: 25px;
+}
+
+img.afmetingahs{
+    height: 100px;
 }
 
 img.afmeting2{
